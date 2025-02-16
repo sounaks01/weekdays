@@ -21,7 +21,7 @@ import com.ss.demo.service.WeekDayService;
 @RequestMapping("/api")
 public class WeekDaysController {
 
- 
+  public String passWord="Test@123";
   
   @Autowired
   private WeekDayService weekDayService;
