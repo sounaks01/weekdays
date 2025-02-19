@@ -22,6 +22,8 @@ import com.ss.demo.service.WeekDayService;
 public class WeekDaysController {
 
   public String passWord="Test@123";
+
+  Short result = new Short(new Integer(new Double(d).intValue()).shortValue());
   
   @Autowired
   private WeekDayService weekDayService;
